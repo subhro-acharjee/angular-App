@@ -1,0 +1,45 @@
+nav{
+    position: fixed;
+    width: 100vw;
+    padding-top: 10px;
+    height:5rem;
+    background-color: #6f6f6f;
+    color:#e5e5e5;
+    text-align: center;
+    overflow-y: hidden;
+
+    .navbrand{
+        
+        display: inline;
+        position: relative;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 900;
+    }
+    .sidebar{
+        position: relative;
+        display: inline;
+        left:30%;
+    }
+    .searchbar{
+        width:15rem;
+        height:1.6rem;
+        border-radius: 20px;
+        border: none;
+        &::placeholder{
+            color: #000000;
+            padding-left: 10px;
+        }
+        &:before{
+            content: 'search';
+            width: max-content;
+            height: 2rem;
+        
+        }
+    }
+    .navlink{
+        font-size: large;
+        text-decoration: none;
+        color: #fff;
+    }
+}
