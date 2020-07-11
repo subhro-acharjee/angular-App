@@ -1,0 +1,20 @@
+article{
+    display: flex;
+    flex-flow: column;
+    border: 0.2px solid #676767;
+    border-radius: 8px;
+    background-color: #d5d5d5;
+    box-shadow: 0 10px 20px 0 rgba($color: #000000, $alpha: 0.2), 0 8px 20px 0 rgba($color: #000000, $alpha: 0.4);
+    padding: 1.4rem;
+    .header{
+        font-size: 2.1rem;
+        font-weight: 700;
+        color:#414141;
+        text-align: center;
+    }
+    .body{
+        font-size: large;
+        font-weight:400;
+        color:#121212
+    }
+}

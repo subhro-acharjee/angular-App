@@ -1,1 +1,5 @@
-<p>note-list works!</p>
+<div class="group">
+    <div *ngFor="let elem of arrOfRe ">
+        <app-each-note [elem]="elem" (DeleteNote)="remove($event)"></app-each-note>
+    </div> 
+</div>

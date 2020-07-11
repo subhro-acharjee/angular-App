@@ -1,1 +1,16 @@
-<p>add-notes works!</p>
+
+<div [ngClass]='modal' >
+    <div class="modal-x">
+        <h1>Add a Note</h1>
+        <form>
+            <input type="text" #title >
+            <input type="text" name=""#description>
+            <input type="file" name="" #file>
+            <a (click)='addData(title.value,description.value,file.value)'>Submit</a>
+        </form>
+    </div>
+</div>
+
+<div class="floating-btn">
+    <i class="fa fa-plus" aria-hidden="true" (click)='change()'></i>
+</div>

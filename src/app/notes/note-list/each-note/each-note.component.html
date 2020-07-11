@@ -1,1 +1,12 @@
-<p>each-note works!</p>
+<article>
+    <div class="header">
+        {{elem.title}}
+        <div class="left">
+            <button (click)="delete(elem.id)"> &times;</button>
+        </div>
+    </div>
+    <hr>
+    <div class="body">
+        {{elem.body}}
+    </div>
+</article>
